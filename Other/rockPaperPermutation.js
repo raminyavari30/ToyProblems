@@ -20,7 +20,7 @@ let rockPaperPermutation = (roundCount) => {
     }
     else {
       for(let char of choices) {
-        recurse(str + char);
+        recurse(`${str}${char}`);
       }
     }
   }
